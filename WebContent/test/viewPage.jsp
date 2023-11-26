@@ -6,6 +6,7 @@
 	String saveFolder = "C:/Jsp/myapp/WebContent/ch13/filestorage";
 	String encType = "EUC-KR";
 	int maxSize = 5 * 1024 * 1024;
+	
 	try {
 		MultipartRequest multi = null;
 		multi = new MultipartRequest(request, saveFolder, maxSize,

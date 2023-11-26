@@ -40,6 +40,7 @@ height:50%;
 	<c:if test="${sessionScope.principal.id == dto.userId}">
 		<button onClick="deleteById(${dto.id})" class="btn btn-danger">삭제</button>
 	</c:if>
+</div>
 
 
 <br/><br/>

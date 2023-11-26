@@ -40,6 +40,7 @@
 		</form>
 		<div class="join">
 			<a href="/JspProject/user/joinForm.jsp">회원가입</a>
+		</div>
 	</section>
 
 

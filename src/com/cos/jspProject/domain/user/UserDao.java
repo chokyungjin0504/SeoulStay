@@ -31,7 +31,7 @@ public class UserDao {
 				return user;
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			e.printStackTrace();	
 		} finally { // 무조건 실행
 			DB.close(conn, pstmt, rs);
 		}

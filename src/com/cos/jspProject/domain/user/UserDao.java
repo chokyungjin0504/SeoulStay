@@ -23,12 +23,12 @@ public class UserDao {
 			
 			// Persistence API
 			if(rs.next()) {
-				User user = User.builder()
-						.id(rs.getInt("id"))
-						.email(rs.getString("email"))
-						.nickname(rs.getString("nickname"))
-						.build();
+				User user = new User();
+				user.setId(rs.getInt("id"));
+				user.setEmail(rs.getString("email"));
+				user.setNickname(rs.getString("nickname"));
 				return user;
+
 			}
 		} catch (Exception e) {
 			e.printStackTrace();	

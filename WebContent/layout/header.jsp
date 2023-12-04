@@ -8,7 +8,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>오늘의 집</title>
+<title>SeoulStay</title>
 
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -53,33 +53,33 @@
 		<nav class="header_nav">
 			<div class="dropdown">
 				<button type="button" class="btn" data-toggle="dropdown">
-					커뮤니티</button>
+					rooms</button>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="<%=request.getContextPath()%>/photo_board?cmd=photolist">사진</a>
+					<a class="dropdown-item" href="<%=request.getContextPath()%>/photo_board?cmd=photolist">rooms</a>
 					<hr />
-					<a class="dropdown-item" href="#" onclick="warning()">집들이</a>
+					<a class="dropdown-item" href="#" onclick="warning()">Store</a>
 
 				</div>
 				<div id="demo" class="collapse"></div>
-				<a href="#" onclick="warning()">스토어</a>
+<!-- <a href="#" onclick="warning()">스토어</a> -->				
 		</nav>
 
 		<c:choose>
 			<c:when test="${sessionScope.principal != null}">
 				<div class=" header_right">
 
-					<input type="text" placeholder="오늘의집 통합검색">
+					<input type="text" placeholder="search">
 					<div class="header_right_a">
-						<a href="/JspProject/user?cmd=logout">로그아웃</a>
+						<a href="/JspProject/user?cmd=logout">logout</a>
 					</div>
 			</c:when>
 			<c:otherwise>
 				<div class=" header_right">
 
-					<input type="text" placeholder="오늘의집 통합검색">
+					<input type="text" placeholder="search">
 					<div class="header_right_a">
-						<a href=" /JspProject/user/loginForm.jsp ">로그인</a> <span>|</span>
-						<a href=" /JspProject/user/joinForm.jsp">회원가입</a>
+						<a href=" /JspProject/user/loginForm.jsp ">login</a> <span>|</span>
+						<a href=" /JspProject/user/joinForm.jsp">register</a>
 					</div>
 			</c:otherwise>
 		</c:choose>
@@ -88,15 +88,13 @@
 
 		<div class="dropdown">
 			<button type="button" class="btn btn-primary dropdown-toggle"
-				data-toggle="dropdown">글쓰기</button>
+				data-toggle="dropdown">new</button>
 			<div class="dropdown-menu">
 				<a class="dropdown-item"
-					href="<%=request.getContextPath()%>/photo_board?cmd=uploadForm">사진
-					올리기</a>
+					href="<%=request.getContextPath()%>/photo_board?cmd=uploadForm">upload pictures</a>
 				<hr />
 				<a class="dropdown-item"   onclick="warning()"
-					href="#">집들이
-					글쓰기</a>
+					href="#">upload context</a>
 
 			</div>
 		</div>
@@ -111,7 +109,7 @@
 
 	<script>
 		function warning() {
-			alert("준비중입니다.");
+			alert("coming soon.");
 		}
 	</script>
 </body>

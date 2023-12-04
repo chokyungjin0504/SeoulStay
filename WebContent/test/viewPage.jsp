@@ -3,7 +3,7 @@
 <%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%>
 <%@page import="java.util.*,java.io.*"%>
 <%
-	String saveFolder = "C:/Jsp/myapp/WebContent/ch13/filestorage";
+	String saveFolder = "C:/Users/sarah/Desktop/JSP-ProJect/WebContent/filestoragee";
 	String encType = "EUC-KR";
 	int maxSize = 5 * 1024 * 1024;
 	

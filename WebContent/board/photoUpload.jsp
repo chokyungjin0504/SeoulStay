@@ -21,7 +21,7 @@
 </head>
 <body>
 	<a href="/JspProject/index.jsp"> <img src="../images/loginlogo.png"></a>
-	<h2>사진 올리기</h2>
+	<h2>upload photo</h2>
 
 	<form action="/JspProject/photo_board?cmd=upload" method="post"  enctype="multipart/form-data" >
 		<section>
@@ -35,7 +35,7 @@
 					<path
 						d="M11.952 9.778l2.397-5.994A1.778 1.778 0 0 1 16 2.667h16c.727 0 1.38.442 1.65 1.117l2.398 5.994h10.174c.982 0 1.778.796 1.778 1.778v32c0 .981-.796 1.777-1.778 1.777H1.778A1.778 1.778 0 0 1 0 43.556v-32c0-.982.796-1.778 1.778-1.778h10.174zM24 38c6.075 0 11-4.925 11-11s-4.925-11-11-11-11 4.925-11 11 4.925 11 11 11z"></path></svg>
 
-				<div id="div_text">사진 올리기</div>
+				<div id="div_text">upload photo</div>
 				
 				<div class="img_box">
 					<img id="blah" />
@@ -44,14 +44,14 @@
 			</button>
 
 			<div>
-				<textarea cols="20" placeholder="사진에 대해서 설명해주세요."
+				<textarea cols="20" placeholder="explain about the room."
 					autofocus="autofocus"  name="content"></textarea>
 			</div>
 		</section>
 		<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
 		<hr />
 		<div class="section_div">
-			<button type="submit" class="btn btn-primary btn_submit">올리기</button>
+			<button type="submit" class="btn btn-primary btn_submit">save</button>
 		</div>
 	</form>
 

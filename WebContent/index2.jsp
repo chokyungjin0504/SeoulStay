@@ -24,7 +24,7 @@
 </style>
 <main>
 
-	<h3>오늘의 사진</h3>
+	<h3>Today's room</h3>
 	<section class="photo_box">
 		<c:forEach var="board" items="${boards}">
 			<div class="container">
@@ -35,19 +35,20 @@
 			</div>
 		</c:forEach>
 	</section>
+	<br><br>
 
 
-
+<!-- 
 	<div class="main_img">
 		<img src="images/mainimg.png">
-	</div>
-	<div class="main_categori">
-		<img src="images/categori.png">
-	</div>
+	</div> -->
+<!-- 	<div class="main_categori">
+		<img src="images/categori2.png">
+	</div> -->
 </main>
 
 <footer>
-	<img src="images/footer.png">
+	<img src="images/footer2.png">
 
 </footer>
 

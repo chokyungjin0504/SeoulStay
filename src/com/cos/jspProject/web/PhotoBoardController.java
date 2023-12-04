@@ -52,7 +52,7 @@ public class PhotoBoardController<E> extends HttpServlet {
 		ReplyService replyService = new ReplyService();
 		if (cmd.equals("upload")) {
 
-			String saveFolder = "C:/mylab/springwork/JspProject/WebContent/uploads";
+			String saveFolder = "C:/Users/sarah/Desktop/JSP-ProJect/WebContent/uploads";
 			String encType = "UTF-8";
 			int maxSize = 5 * 1024 * 1024;
 			try {

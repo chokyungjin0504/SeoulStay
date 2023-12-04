@@ -22,7 +22,7 @@ function deleteReply(id){
 			console.log(result);
 			$("#reply-"+id).remove();
 		} else {
-			alert("댓글삭제 실패");
+			alert("failed to delete review");
 		}
 	});
 }
@@ -48,7 +48,7 @@ function replySave(userId, boardId) {
 			$("#content").val("");
 			//location.reload();
 		} else {
-			alert("댓글쓰기 실패");
+			alert("failed to leave review");
 		}
 	});
 }
@@ -65,7 +65,7 @@ function deleteById(boardId){
 		if(result.statusCode == 1){
 			location.href="/JspProject/photo_board?cmd=photolist";
 		}else{
-			alert("삭제에 실패하였습니다.");
+			alert("failed to delete review.");
 		}
 	});
 }

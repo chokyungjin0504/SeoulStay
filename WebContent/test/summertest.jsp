@@ -18,7 +18,7 @@
 
   <script>
   	$('#summernote').summernote({
-        placeholder: '글을 쓰세요.',
+        placeholder: 'write here.',
         tabsize: 2,
         height: 400
       });

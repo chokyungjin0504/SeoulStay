@@ -33,12 +33,12 @@ height:50%;
 
 	<hr />
 <h6 class="m-2">
-		작성자 : <i>${dto.userNickname}
-		<br></i>조회수 : <i>${dto.readCount}</i>
+		writer : <i>${dto.userNickname}
+		<br></i>views : <i>${dto.readCount}</i>
 	</h6>
 	
 	<c:if test="${sessionScope.principal.id == dto.userId}">
-		<button onClick="deleteById(${dto.id})" class="btn btn-danger">삭제</button>
+		<button onClick="deleteById(${dto.id})" class="btn btn-danger">delete</button>
 	</c:if>
 </div>
 
@@ -50,7 +50,7 @@ height:50%;
 			<div class="comment-wrapper">
 				<div class="panel panel-info">
 					<div class="panel-heading m-2">
-						<b>댓글</b>
+						<b>review</b>
 					</div>
 					<div class="panel-body">
 						<input type="hidden" name="userId"
@@ -62,7 +62,7 @@ height:50%;
 
 						<button
 							onClick="replySave(${sessionScope.principal.id}, ${dto.id})"
-							class="btn btn-primary pull-right">댓글쓰기</button>
+							class="btn btn-primary pull-right">write review</button>
 
 						<div class="clearfix"></div>
 						<hr />

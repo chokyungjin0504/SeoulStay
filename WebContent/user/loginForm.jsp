@@ -29,17 +29,17 @@
 	<section>
 		<form action="/JspProject/user?cmd=login" method="post">
 			<div>
-				<input type="email" placeholder="이메일" name="email">
+				<input type="email" placeholder="email" name="email">
 			</div>
 			<div>
-				<input type="password" placeholder="비밀번호" name="password">
+				<input type="password" placeholder="password" name="password">
 			</div>
 			<div>
-				<button type="submit" class="btn btn-primary">로그인</button>
+				<button type="submit" class="btn btn-primary">login</button>
 			</div>
 		</form>
 		<div class="join">
-			<a href="/JspProject/user/joinForm.jsp">회원가입</a>
+			<a href="/JspProject/user/joinForm.jsp">register</a>
 		</div>
 	</section>
 

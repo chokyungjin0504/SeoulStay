@@ -71,7 +71,7 @@ justify-content: space-between;
 </main>
 
 <footer>
-	<img src="/JspProject/images/footer.png">
+	<img src="/images/footer.png">
 
 </footer>
 

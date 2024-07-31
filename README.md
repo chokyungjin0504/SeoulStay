@@ -18,16 +18,23 @@ With the anticipated increase in foreign tourists, we have created a bulletin bo
 
 ##  😵‍💫Main Function
 ![image2](https://github.com/chokyungjin0504/SeoulStay/blob/master/image2.png)
+
 1. Login/Logout
+
 2. Sign Up
 
 ![image3](https://github.com/chokyungjin0504/SeoulStay/blob/master/image3.png)
+
 3. Write Post
 
 ![image4](https://github.com/chokyungjin0504/SeoulStay/blob/master/image4.png)
+
 4. Write Review
 
 ![image5](https://github.com/chokyungjin0504/SeoulStay/blob/master/image5.png)
+
 5. Attach File (Photo)
+
 6. View Count
+
 7. Delete Post

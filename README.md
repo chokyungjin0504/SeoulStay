@@ -5,6 +5,7 @@
 With the anticipated increase in foreign tourists, we have created a bulletin board to address the expected rise in the utilization of accommodation facilities in Korea.
 
 ##  🌐Benchmarking Website
+![image1](https://github.com/chokyungjin0504/SeoulStay/blob/master/image1.png)
 
 [airbnb](https://www.airbnb.co.uk/?_set_bev_on_new_domain=1722386304_EAMjUyYWNjZmRhYT)
 
@@ -13,7 +14,14 @@ With the anticipated increase in foreign tourists, we have created a bulletin bo
 ![eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 ![mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
-## 📲Main Function
+##  📊ERD
+![image6](https://github.com/chokyungjin0504/SeoulStay/blob/master/image6.png)
+
+##  😵‍💫Main Function
+![image2](https://github.com/chokyungjin0504/SeoulStay/blob/master/image2.png)
+![image3](https://github.com/chokyungjin0504/SeoulStay/blob/master/image3.png)
+![image4](https://github.com/chokyungjin0504/SeoulStay/blob/master/image4.png)
+![image5](https://github.com/chokyungjin0504/SeoulStay/blob/master/image5.png)
 
 1. Login/Logout
 2. Sign Up
